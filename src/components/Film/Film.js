@@ -58,7 +58,6 @@ function Film(props) {
                             </div>
                         );
                     })}
-                    {/* {colRemove} */}
                     {colEdit}
                 </Row>
             );

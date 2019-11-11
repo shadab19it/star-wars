@@ -11,8 +11,6 @@
 # production
 /build
 
-# dotenv
-.env
 .idea
 
 # misc

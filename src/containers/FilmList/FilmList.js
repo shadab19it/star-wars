@@ -55,16 +55,6 @@ class FilmList extends Component {
         this.props.getFilms();
     };
 
-    removeFilm = id => {
-        this.props.removeFilm(id);
-
-        this.setState({
-            list: this.state.list.filter(function(item) {
-                return item.id !== id;
-            })
-        });
-    };
-
     editFilm = id => {
         this.props.history.push(`/film/${id}`);
     };
@@ -96,7 +86,6 @@ class FilmList extends Component {
                                 <Film
                                     data={film}
                                     status="idStatusConciliacao"
-                                    removeFilm={this.removeFilm}
                                     editFilm={this.editFilm}
                                 />
                             </Fragment>
@@ -130,11 +119,6 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
     return {
         getFilms: () => dispatch({ type: "GET_FILMS" }),
-        removeFilm: id =>
-            dispatch({
-                type: "REMOVE_FILM",
-                id: id
-            }),
         filmList: bindActionCreators(List, dispatch)
     };
 };

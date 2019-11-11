@@ -1,0 +1,34 @@
+@import "../../styles/base/base";
+
+//Row
+.custom-film-row {
+    color: $text-color-primary;
+    padding: 10px 0 10px 0;
+    background-color: $color-secondary;
+    margin: auto !important;
+
+    &:hover {
+        background-color: $color-secondary-hover;
+        cursor: pointer;
+    }
+
+    [class^="col-"] {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    span {
+        font-size: 0.8em !important;
+        font-weight: bolder !important;
+    }
+}
+
+.custom-col {
+    overflow: visible !important;
+}
+
+.custom-col-status {
+    [class*="status"] {
+        margin-top: 3px;
+    }
+}

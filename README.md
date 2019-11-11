@@ -1,6 +1,6 @@
 # Projeto Star Wars
 
-No projeto foi utilizado ReactJS. Também possuo conhecimento em Angular, mas foi escolhido ReactJS por estar mais fresco na memória por trabalhar mais recentemente utilizando esta tecnologia.
+Projeto utilizando a api swapi.co/api de star wars. Foi realizado com sucesso todos requerimentos e testes em todos componentes e containers.
 
 ### Project tecnologies
 
@@ -15,15 +15,4 @@ npm start
 ### Execute the react tests
 ```
 npm test
-```
-
-### Dados de acesso
-
-Login: 
-```
-admin
-```
-Senha: 
-```
-admin
 ```

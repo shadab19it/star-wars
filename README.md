@@ -7,6 +7,8 @@ Projeto utilizando a api swapi.co/api de star wars. Foi realizado com sucesso to
 Reactjs, axios, bootstrap, dotenv, redux, redux-saga, reduxsauce, enzyme , etc..
 
 ### Execute the react front
+
+### Run:
 ```
 npm install
 npm start

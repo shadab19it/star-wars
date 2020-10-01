@@ -8,8 +8,9 @@ Reactjs, axios, bootstrap, dotenv, redux, redux-saga, reduxsauce, enzyme , etc..
 
 ### Execute the react front
 
-### Run:
 ```
+#### Run:
+
 npm install
 npm start
 ```
